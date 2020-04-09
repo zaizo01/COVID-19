@@ -1,0 +1,11 @@
+.container {
+    transition: all 0.4s ease-in;
+}
+
+.page-enter-active, .page-leave-active{
+    transition: opacity .5s
+}
+
+.page-enter, .page-leave-active{
+    opacity: 0
+}

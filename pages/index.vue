@@ -1,5 +1,5 @@
 <template>
-<div class="background">
+<div class="">
     <div id="navbarMenuHeroC" class="navbar-menu">    
             <nav class="navbar-end">
                 <nuxt-link to="/"><a class="navbar-item is-active"><strong>Home</strong></a></nuxt-link>    
@@ -42,9 +42,7 @@ export default {
 section{
     margin-top: 30px;
 }
-.background{
-    background-color: #F7F7FF;
-}
+
 .button{
     background-color: #3BB1E4;
 }
